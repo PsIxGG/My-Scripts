@@ -6,6 +6,6 @@ I use them for myself, not for public release. If they need to be taken down fro
 just let me know and I'll remove them.
 
 (2.)
-> Error_Text...
-> //..Serth: "TeamSESH"
->         *(https://www.youtube.com/@TeamSESHBones/videos)..//
+- Error_Text...
+- //..Serth: "TeamSESH"
+-    *(https://www.youtube.com/@TeamSESHBones/videos)..//
