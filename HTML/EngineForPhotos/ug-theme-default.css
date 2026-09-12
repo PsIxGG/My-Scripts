@@ -23,7 +23,7 @@
 /* --- fullscreen button -- */
 .ug-theme-default .ug-default-button-fullscreen{
 	position:absolute;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/tree/main/HTML/EngineForPhotos/Img/button_fullscreen.png?raw=true');
+	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/button_fullscreen.png?raw=true');
     width:53px;
     height:50px;
     cursor:pointer;
@@ -47,7 +47,7 @@
 /* --- fullscreen button single mode-- */
 .ug-theme-default .ug-default-button-fullscreen-single{
 	position:absolute;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/tree/main/HTML/EngineForPhotos/Img/button_fullscreen_single.png?raw=true');
+	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/button_fullscreen_single.png?raw=true');
     width:52px;
     height:50px;
     cursor:pointer;
@@ -71,7 +71,7 @@
 /* --- play button -- */
 .ug-theme-default .ug-default-button-play{
 	position:absolute;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/tree/main/HTML/EngineForPhotos/Img/button_playpause.png?raw=true');
+	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/button_playpause.png?raw=true');
     width:51px;
     height:50px;
     cursor:pointer;
@@ -94,7 +94,7 @@
 /* --- play button single mode-- */
 .ug-theme-default .ug-default-button-play-single{
 	position:absolute;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/tree/main/HTML/EngineForPhotos/Img/button_playpause_single.png?raw=true');
+	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/button_playpause_single.png?raw=true');
     width:50px;
     height:50px;
     cursor:pointer;
@@ -141,7 +141,7 @@
 	width:7px;
 	height:7px;
 	background-repeat:no-repeat;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/tree/main/HTML/EngineForPhotos/Img/arrow_down_up.png?raw=true');
+	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/arrow_down_up.png?raw=true');
 	background-position: 0px 0px;
 	z-index:2;
 }
