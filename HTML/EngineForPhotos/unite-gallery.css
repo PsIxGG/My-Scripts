@@ -682,7 +682,7 @@ img.ug-sepia-effect{
 }
 
 .ug-thumb-wrapper.ug-tile .ug-tile-icon.ug-icon-zoom{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/icon-zoom32.png?raw=true');	
+	background-image:url('https://cdn.jsdelivr.net/gh/PsIxGG/My-Scripts@main/HTML/EngineForPhotos/Img/icon-zoom32.png');	
 }
 
 .ug-thumb-wrapper.ug-tile .ug-tile-icon.ug-icon-play{
@@ -783,14 +783,14 @@ img.ug-sepia-effect{
 	width:50px;
 	height:55px;
 	background-repeat:no-repeat;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/lightbox-arrow-left.png?raw=true');
+	background-image:url('https://cdn.jsdelivr.net/gh/PsIxGG/My-Scripts@main/HTML/EngineForPhotos/Img/lightbox-arrow-left.png');
 	background-position:0px 0px;
 	z-index:3;
 	cursor:pointer;
 }
 
 .ug-lightbox .ug-lightbox-arrow-right{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/lightbox-arrow-right.png?raw=true');
+	background-image:url('https://cdn.jsdelivr.net/gh/PsIxGG/My-Scripts@main/HTML/EngineForPhotos/Img/lightbox-arrow-right.png');
 }
 
 .ug-lightbox .ug-lightbox-button-close{
@@ -798,7 +798,7 @@ img.ug-sepia-effect{
 	width:36px;
 	height:36px;
 	background-repeat:no-repeat;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/lightbox-icon-close.png?raw=true');
+	background-image:url('https://cdn.jsdelivr.net/gh/PsIxGG/My-Scripts@main/HTML/EngineForPhotos/Img/lightbox-icon-close.png');
 	background-position:0px 0px;
 	z-index:4;
 	cursor:pointer;
@@ -957,11 +957,11 @@ img.ug-sepia-effect{
 }
 
 .ug-button-tile-navigation.ug-button-tile-left{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/tile_button_left.png?raw=true');
+	background-image:url('https://cdn.jsdelivr.net/gh/PsIxGG/My-Scripts@main/HTML/EngineForPhotos/Img/tile_button_left.png');
 }
 
 .ug-button-tile-navigation.ug-button-tile-right{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/tile_button_right.png?raw=true');
+	background-image:url('https://cdn.jsdelivr.net/gh/PsIxGG/My-Scripts@main/HTML/EngineForPhotos/Img/tile_button_right.png');
 }
 
 .ug-button-tile-navigation:hover{
@@ -977,7 +977,7 @@ img.ug-sepia-effect{
 }
 
 .ug-button-tile-navigation.ug-button-tile-play{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/tile_button_play_pause.png?raw=true');
+	background-image:url('https://cdn.jsdelivr.net/gh/PsIxGG/My-Scripts@main/HTML/EngineForPhotos/Img/tile_button_play_pause.png');
 	width:35px;
 } 
 
