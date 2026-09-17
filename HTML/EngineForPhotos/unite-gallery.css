@@ -248,7 +248,7 @@
 .ug-slider-wrapper .ug-button-videoplay.ug-type-square{	
 	width:86px;
 	height:66px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/play-button-square.png?raw=true');
+	/* background-image:url('play-button-square.png'); */
 	background-position:0px -66px;
 }
 
@@ -260,7 +260,7 @@
 .ug-slider-wrapper .ug-button-videoplay.ug-type-round{	
 	width:76px;
 	height:76px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/play-button-round.png?raw=true');
+	/* background-image:url('play-button-round.png'); */
 	opacity:0.9;
 	filter: alpha(opacity = 90);
 	transition: all 0.3s ease 0s;
@@ -299,7 +299,7 @@
 	position:absolute;
 	height:64px;
 	width:64px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/button-close.png?raw=true');
+	/* background-image:url('button-close.png'); */
 	cursor:pointer;
 	z-index:1000;
 }
@@ -380,7 +380,7 @@
 }
 
 .ug-thumb-wrapper.ug-thumb-generated .ug-thumb-error{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/not_loaded.png?raw=true');
+	/* background-image:url('not_loaded.png'); */
 }
 
 .ug-thumb-wrapper.ug-thumb-generated img{
@@ -1136,7 +1136,7 @@ img.ug-sepia-effect{
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-left-hortype.ug-skin-default{
 	width:15px;
 	height:30px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/slider_arrow_left.png?raw=true');
+	/* background-image:url('slider_arrow_left.png'); */
 	background-position:0px 0px;
 }
 
@@ -1154,7 +1154,7 @@ img.ug-sepia-effect{
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-right-hortype.ug-skin-default{
 	width:15px;
 	height:30px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/slider_arrow_right.png?raw=true');
+	/* background-image:url('slider_arrow_right.png'); */
 	background-position:0px 0px;
 }
 
