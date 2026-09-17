@@ -929,7 +929,7 @@ img.ug-sepia-effect{
 }
 
 .ug-bullets.ug-skin-default.ug-bullets-gray .ug-bullet{ 
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/tile_bullets_gray.png?raw=true');
+	/* background-image:url('tile_bullets_gray.png'); */
 }
 
 .ug-bullets.ug-skin-default.ug-bullets-blue .ug-bullet{ 
@@ -941,11 +941,11 @@ img.ug-sepia-effect{
 }
 
 .ug-bullets.ug-skin-default.ug-bullets-green .ug-bullet{ 
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/tile_bullets_green.png?raw=true');
+	/* background-image:url('tile_bullets_green.png'); */
 }
 
 .ug-bullets.ug-skin-default.ug-bullets-red .ug-bullet{ 
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/tile_bullets_red.png?raw=true');
+	/* background-image:url('tile_bullets_red.png'); */
 }
 
 .ug-button-tile-navigation{
