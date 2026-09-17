@@ -10,42 +10,30 @@
 
 
 
-/* ---------Slider_Arrows-------- */
+/* --- Slider_Arrows --- */
 .ug-arrow-left.ug-skin-alexis,
 .ug-arrow-right.ug-skin-alexis{
 	width:35px;
 	height:35px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/slider_arrow_left.png?raw=true');
+	/*background-image:url('slider_arrow_left.png');*/
 	background-position:0px 0px;
 }
-
-.ug-arrow-right.ug-skin-alexis{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/slider_arrow_right.png?raw=true');
-}
-
+.ug-arrow-right.ug-skin-alexis{ /*background-image:url('slider_arrow_right.png');*/ }
 .ug-arrow-left.ug-skin-alexis.ug-arrow-hover,
-.ug-arrow-right.ug-skin-alexis.ug-arrow-hover{
-	background-position:0px -35px;
-}
-
+.ug-arrow-right.ug-skin-alexis.ug-arrow-hover{ background-position:0px -35px; }
 .ug-arrow-left.ug-skin-alexis.ug-arrow-disabled,
-.ug-arrow-right.ug-skin-alexis.ug-arrow-disabled{
-	background-position:0px -70px;
-}
+.ug-arrow-right.ug-skin-alexis.ug-arrow-disabled{ background-position:0px -70px; }
 
 
-/* ---------Slider_Bullets-------- */
+/* --- Slider_Bullets --- */
 .ug-bullets.ug-skin-alexis .ug-bullet{
 	width:28px;
 	height:28px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/slider_bullets.png?raw=true');
+	/*background-image:url('slider_bullets.png');*/
 	background-position:top left;
 	margin-left:5px;
 }
-
-.ug-bullets.ug-skin-alexis .ug-bullet.ug-bullet-active{
-	background-position:bottom left;
-}
+.ug-bullets.ug-skin-alexis .ug-bullet.ug-bullet-active{ background-position:bottom left; }
 
 
 /* --- play button -- */
@@ -57,41 +45,23 @@
     cursor:pointer;
 	background-position:0px 0px;
 }
-
-.ug-button-play.ug-skin-alexis.ug-button-hover{
-	background-position:0px -35px;	
-}
-
-.ug-button-play.ug-skin-alexis.ug-stop-mode{
-	background-position:0px -70px;
-}
-
-.ug-button-play.ug-skin-alexis.ug-stop-mode.ug-button-hover{
-	background-position:0px -105px;
-}
+.ug-button-play.ug-skin-alexis.ug-button-hover{ background-position:0px -35px; }
+.ug-button-play.ug-skin-alexis.ug-stop-mode{ background-position:0px -70px; }
+.ug-button-play.ug-skin-alexis.ug-stop-mode.ug-button-hover{ background-position:0px -105px; }
 
 
 /* --- fullscreen button -- */
 .ug-button-fullscreen.ug-skin-alexis{
 	position:absolute;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/button_fullscreen.png?raw=true');
+	/*background-image:url('button_fullscreen.png');*/
     width:35px;
     height:35px;
     cursor:pointer;
 	background-position:0px 0px;
 }
-
-.ug-button-fullscreen.ug-skin-alexis.ug-button-hover{
-	background-position:0px -35px;
-}
-
-.ug-button-fullscreen.ug-skin-alexis.ug-fullscreenmode{
-	background-position:0px -70px;
-}
-
-.ug-button-fullscreen.ug-skin-alexis.ug-fullscreenmode.ug-button-hover{
-	background-position:0px -105px;
-}
+.ug-button-fullscreen.ug-skin-alexis.ug-button-hover{ background-position:0px -35px; }
+.ug-button-fullscreen.ug-skin-alexis.ug-fullscreenmode{ background-position:0px -70px; }
+.ug-button-fullscreen.ug-skin-alexis.ug-fullscreenmode.ug-button-hover{ background-position:0px -105px; }
 
 
 /* --- zoom panel --- */
@@ -103,125 +73,77 @@
     margin-top:5px;
     background-position: 0px 0px;	
 }
-
-.ug-zoompanel.ug-skin-alexis .ug-zoompanel-plus{
-	margin-top:0px;
-}
-
-.ug-zoompanel.ug-skin-alexis .ug-zoompanel-plus{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/button_zoom_plus.png?raw=true');
-}
-
-.ug-zoompanel.ug-skin-alexis .ug-zoompanel-minus{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/button_zoom_minus.png?raw=true');
-}
-
-.ug-zoompanel.ug-skin-alexis .ug-zoompanel-return{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/button_zoom_back.png?raw=true');
-}
-
-.ug-zoompanel.ug-skin-alexis .ug-zoompanel-button.ug-button-hover{
-    background-position: 0px -35px;
-}
-
+.ug-zoompanel.ug-skin-alexis .ug-zoompanel-plus{ margin-top:0px; }
+.ug-zoompanel.ug-skin-alexis .ug-zoompanel-plus{ /*background-image:url('button_zoom_plus.png');*/ }
+.ug-zoompanel.ug-skin-alexis .ug-zoompanel-minus{ /*background-image:url('button_zoom_minus.png');*/ }
+.ug-zoompanel.ug-skin-alexis .ug-zoompanel-return{ /*background-image:url('button_zoom_back.png');*/ }
+.ug-zoompanel.ug-skin-alexis .ug-zoompanel-button.ug-button-hover{ background-position: 0px -35px; }
 .ug-zoompanel.ug-skin-alexis .ug-zoompanel-button-disabled,
-.ug-zoompanel.ug-skin-alexis .ug-zoompanel-button.ug-button-hover.ug-zoompanel-button-disabled{
-    background-position: 0px -70px;
-    cursor:default;
-}
+.ug-zoompanel.ug-skin-alexis .ug-zoompanel-button.ug-button-hover.ug-zoompanel-button-disabled{ background-position: 0px -70px; cursor:default; }
 
 
-/*--- down arrow ---*/
+/* --- down arrow --- */
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-down.ug-skin-alexis{
 	width:40px;
 	height:25px;
 	background-position:0px -0px;	
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/Img/grid_arrow_down.png?raw=true');
+	/*background-image:url('grid_arrow_down.png');*/
 }
-
-.ug-gallery-wrapper .ug-grid-panel .grid-arrow-down.ug-skin-alexis.ug-button-hover{
-	background-position:0px -25px;
-}
-
+.ug-gallery-wrapper .ug-grid-panel .grid-arrow-down.ug-skin-alexis.ug-button-hover{ background-position:0px -25px; }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-down.ug-skin-alexis.ug-button-hover.ug-button-disabled,
-.ug-gallery-wrapper .ug-grid-panel .grid-arrow-down.ug-skin-alexis.ug-button-disabled{
-	background-position:0px -50px;
-}
+.ug-gallery-wrapper .ug-grid-panel .grid-arrow-down.ug-skin-alexis.ug-button-disabled{ background-position:0px -50px; }
 
 
-/*--- up arrow ---*/
+/* --- up arrow --- */
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-up.ug-skin-alexis{
 	width:40px;
 	height:25px;
 	background-position:0px 0px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/grid_arrow_up.png?raw=true');
+	/*background-image:url('grid_arrow_up.png');*/
 }
-
-.ug-gallery-wrapper .ug-grid-panel .grid-arrow-up.ug-skin-alexis.ug-button-hover{
-	background-position:0px -25px;	
-}
-
+.ug-gallery-wrapper .ug-grid-panel .grid-arrow-up.ug-skin-alexis.ug-button-hover{ background-position:0px -25px; }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-up.ug-skin-alexis.ug-button-hover.ug-button-disabled,
-.ug-gallery-wrapper .ug-grid-panel .grid-arrow-up.ug-skin-alexis.ug-button-disabled{
-	background-position:0px -50px;
-}
+.ug-gallery-wrapper .ug-grid-panel .grid-arrow-up.ug-skin-alexis.ug-button-disabled{ background-position:0px -50px; }
 
 
-/*--- left arrow ---*/
+/* --- left arrow --- */
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-left.ug-skin-alexis{
 	width:40px;
 	height:40px;
 	background-position:0px 0px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/grid_arrow_left.png?raw=true');
+	/*background-image:url('grid_arrow_left.png');*/
 }
-
-.ug-gallery-wrapper .ug-grid-panel .grid-arrow-left.ug-skin-alexis.ug-button-hover{
-	background-position:0px -40px;
-}
-
+.ug-gallery-wrapper .ug-grid-panel .grid-arrow-left.ug-skin-alexis.ug-button-hover{ background-position:0px -40px; }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-left.ug-skin-alexis.ug-button-hover.ug-button-disabled,
-.ug-gallery-wrapper .ug-grid-panel .grid-arrow-left.ug-skin-alexis.ug-button-disabled{
-	background-position:0px -80px;
-}
+.ug-gallery-wrapper .ug-grid-panel .grid-arrow-left.ug-skin-alexis.ug-button-disabled{ background-position:0px -80px; }
 
 
-/*--- right arrow ---*/
+/* --- right arrow --- */
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-right.ug-skin-alexis{
 	width:40px;
 	height:40px;
 	background-position:0px 0px;	
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/grid_arrow_right.png?raw=true');
+	/*background-image:url('grid_arrow_right.png');*/
 }
 
-.ug-gallery-wrapper .ug-grid-panel .grid-arrow-right.ug-skin-alexis.ug-button-hover{
-	background-position:0px -40px;
-}
-
+.ug-gallery-wrapper .ug-grid-panel .grid-arrow-right.ug-skin-alexis.ug-button-hover{ background-position:0px -40px; }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-right.ug-skin-alexis.ug-button-hover.ug-button-disabled,
-.ug-gallery-wrapper .ug-grid-panel .grid-arrow-right.ug-skin-alexis.ug-button-disabled{
-	background-position:0px -80px;
-}
+.ug-gallery-wrapper .ug-grid-panel .grid-arrow-right.ug-skin-alexis.ug-button-disabled{ background-position:0px -80px; }
 
 
-/*--- left arrow - horizontal panel type ---*/
+/* --- left arrow - horizontal panel type --- */
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-left-hortype.ug-skin-alexis{
 	width:15px;
 	height:30px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/grid_arrow_left_hortype.png?raw=true');
+	background-image:url('grid_arrow_left_hortype.png');
 	background-position:0px 0px;
 }
-
-.ug-gallery-wrapper .ug-grid-panel .grid-arrow-left-hortype.ug-skin-alexis.ug-button-hover{
-	background-position:0px -30px;
-}
-
+.ug-gallery-wrapper .ug-grid-panel .grid-arrow-left-hortype.ug-skin-alexis.ug-button-hover{ background-position:0px -30px; }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-left-hortype.ug-skin-alexis.ug-button-hover.ug-button-disabled,
-.ug-gallery-wrapper .ug-grid-panel .grid-arrow-left-hortype.ug-skin-alexis.ug-button-disabled{
-	background-position:0px -60px;
-}
+.ug-gallery-wrapper .ug-grid-panel .grid-arrow-left-hortype.ug-skin-alexis.ug-button-disabled{ background-position:0px -60px; }
 
 
-/*--- right arrow - horizontal panel type ---*/
+/* --- right arrow - horizontal panel type --- */
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-right-hortype.ug-skin-alexis{
 	width:15px;
 	height:30px;
@@ -239,7 +161,7 @@
 }
 
 
-/* left and right arrows */
+/* --- left and right arrows --- */
 .ug-strip-panel .ug-strip-arrow-left.ug-skin-alexis,
 .ug-strip-panel .ug-strip-arrow-right.ug-skin-alexis{
 	width:25px;
@@ -268,7 +190,7 @@
 }
 
 
-/* up and down arrows */
+/* --- up and down arrows --- */
 .ug-strip-panel .ug-strip-arrow-up.ug-skin-alexis,
 .ug-strip-panel .ug-strip-arrow-down.ug-skin-alexis{
 	height:25px;
@@ -303,7 +225,7 @@
 }
 
 
-/* left and right handle */
+/* --- left and right handle --- */
 .ug-gallery-wrapper .ug-handle-tip-left.ug-skin-alexis,
 .ug-gallery-wrapper .ug-handle-tip-right.ug-skin-alexis{
 	width:37px;
@@ -343,7 +265,7 @@
 }
 
 
-/* top and bottom handle */
+/* --- top and bottom handle --- */
 .ug-gallery-wrapper .ug-handle-tip-top.ug-skin-alexis,
 .ug-gallery-wrapper .ug-handle-tip-bottom.ug-skin-alexis{	
 	width:36px;
