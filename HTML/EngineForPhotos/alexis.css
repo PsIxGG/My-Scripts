@@ -10,7 +10,7 @@
 
 
 
-/* --- Slider_Arrows --- */
+/* ---(Slider_Arrows)--- */
 .ug-arrow-left.ug-skin-alexis,
 .ug-arrow-right.ug-skin-alexis{
 	width:35px;
@@ -25,7 +25,10 @@
 .ug-arrow-right.ug-skin-alexis.ug-arrow-disabled{ background-position:0px -70px; }
 
 
-/* --- Slider_Bullets --- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(Slider_Bullets)--- */
 .ug-bullets.ug-skin-alexis .ug-bullet{
 	width:28px;
 	height:28px;
@@ -36,10 +39,13 @@
 .ug-bullets.ug-skin-alexis .ug-bullet.ug-bullet-active{ background-position:bottom left; }
 
 
-/* --- play button -- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(play button)--- */
 .ug-button-play.ug-skin-alexis{
 	position:absolute;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/button_playpause.png?raw=true');
+	/*background-image:url('button_playpause.png');*/
     width:35px;
     height:35px;
     cursor:pointer;
@@ -50,7 +56,10 @@
 .ug-button-play.ug-skin-alexis.ug-stop-mode.ug-button-hover{ background-position:0px -105px; }
 
 
-/* --- fullscreen button -- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(fullscreen button)--- */
 .ug-button-fullscreen.ug-skin-alexis{
 	position:absolute;
 	/*background-image:url('button_fullscreen.png');*/
@@ -64,7 +73,10 @@
 .ug-button-fullscreen.ug-skin-alexis.ug-fullscreenmode.ug-button-hover{ background-position:0px -105px; }
 
 
-/* --- zoom panel --- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(zoom panel)--- */
 .ug-zoompanel.ug-skin-alexis .ug-zoompanel-button{
     background-repeat: no-repeat;
     cursor:pointer;
@@ -82,7 +94,10 @@
 .ug-zoompanel.ug-skin-alexis .ug-zoompanel-button.ug-button-hover.ug-zoompanel-button-disabled{ background-position: 0px -70px; cursor:default; }
 
 
-/* --- down arrow --- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(down arrow)--- */
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-down.ug-skin-alexis{
 	width:40px;
 	height:25px;
@@ -94,7 +109,10 @@
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-down.ug-skin-alexis.ug-button-disabled{ background-position:0px -50px; }
 
 
-/* --- up arrow --- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(up arrow)--- */
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-up.ug-skin-alexis{
 	width:40px;
 	height:25px;
@@ -106,7 +124,10 @@
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-up.ug-skin-alexis.ug-button-disabled{ background-position:0px -50px; }
 
 
-/* --- left arrow --- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(left arrow)--- */
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-left.ug-skin-alexis{
 	width:40px;
 	height:40px;
@@ -118,20 +139,25 @@
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-left.ug-skin-alexis.ug-button-disabled{ background-position:0px -80px; }
 
 
-/* --- right arrow --- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(right arrow)--- */
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-right.ug-skin-alexis{
 	width:40px;
 	height:40px;
 	background-position:0px 0px;	
 	/*background-image:url('grid_arrow_right.png');*/
 }
-
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-right.ug-skin-alexis.ug-button-hover{ background-position:0px -40px; }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-right.ug-skin-alexis.ug-button-hover.ug-button-disabled,
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-right.ug-skin-alexis.ug-button-disabled{ background-position:0px -80px; }
 
 
-/* --- left arrow - horizontal panel type --- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(left arrow - horizontal panel type)--- */
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-left-hortype.ug-skin-alexis{
 	width:15px;
 	height:30px;
@@ -143,31 +169,25 @@
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-left-hortype.ug-skin-alexis.ug-button-disabled{ background-position:0px -60px; }
 
 
-/* --- right arrow - horizontal panel type --- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(right arrow - horizontal panel type)--- */
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-right-hortype.ug-skin-alexis{
 	width:15px;
 	height:30px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/grid_arrow_right_hortype.png?raw=true');
+	/*background-image:url('grid_arrow_right_hortype.png');*/
 	background-position:0px 0px;
 }
-
-.ug-gallery-wrapper .ug-grid-panel .grid-arrow-right-hortype.ug-skin-alexis.ug-button-hover{
-	background-position:0px -30px;
-}
-
+.ug-gallery-wrapper .ug-grid-panel .grid-arrow-right-hortype.ug-skin-alexis.ug-button-hover{ background-position:0px -30px; }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-right-hortype.ug-skin-alexis.ug-button-hover.ug-button-disabled,
-.ug-gallery-wrapper .ug-grid-panel .grid-arrow-right-hortype.ug-skin-alexis.ug-button-disabled{
-	background-position:0px -60px;
-}
+.ug-gallery-wrapper .ug-grid-panel .grid-arrow-right-hortype.ug-skin-alexis.ug-button-disabled{ background-position:0px -60px; }
 
 
-/* --- left and right arrows --- */
-.ug-strip-panel .ug-strip-arrow-left.ug-skin-alexis,
-.ug-strip-panel .ug-strip-arrow-right.ug-skin-alexis{
-	width:25px;
-	height:50px;
-}
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
 
+
+/* ---(left and right arrows)--- */
 .ug-strip-panel .ug-strip-arrow-left.ug-skin-alexis .ug-strip-arrow-tip,
 .ug-strip-panel .ug-strip-arrow-right.ug-skin-alexis .ug-strip-arrow-tip{
 	background-position:0px 0px;
@@ -175,28 +195,18 @@
 	width:4px;
 	height:7px;
 }
-
-.ug-strip-panel .ug-strip-arrow-left.ug-skin-alexis .ug-strip-arrow-tip{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/arrows_strip_left.png?raw=true');
-}
-
-.ug-strip-panel .ug-strip-arrow-right.ug-skin-alexis .ug-strip-arrow-tip{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/arrows_strip_right.png?raw=true');	
-}
-
+.ug-strip-panel .ug-strip-arrow-left.ug-skin-alexis .ug-strip-arrow-tip{ /*background-image:url('arrows_strip_left.png');*/ }
+.ug-strip-panel .ug-strip-arrow-right.ug-skin-alexis .ug-strip-arrow-tip{ /*background-image:url('arrows_strip_right.png');*/	}
+.ug-strip-panel .ug-strip-arrow-left.ug-skin-alexis,
+.ug-strip-panel .ug-strip-arrow-right.ug-skin-alexis{ width:25px; height:50px; }
 .ug-strip-panel .ug-strip-arrow-left.ug-skin-alexis.ug-button-hover .ug-strip-arrow-tip,
-.ug-strip-panel .ug-strip-arrow-right.ug-skin-alexis.ug-button-hover .ug-strip-arrow-tip{
-	background-position:0px -7px;
-}
+.ug-strip-panel .ug-strip-arrow-right.ug-skin-alexis.ug-button-hover .ug-strip-arrow-tip{ background-position:0px -7px; }
 
 
-/* --- up and down arrows --- */
-.ug-strip-panel .ug-strip-arrow-up.ug-skin-alexis,
-.ug-strip-panel .ug-strip-arrow-down.ug-skin-alexis{
-	height:25px;
-	width:50px;
-}
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
 
+
+/* ---(up and down arrows)--- */
 .ug-strip-panel .ug-strip-arrow-up.ug-skin-alexis .ug-strip-arrow-tip,
 .ug-strip-panel .ug-strip-arrow-down.ug-skin-alexis .ug-strip-arrow-tip{
 	background-position:0px 0px;
@@ -204,19 +214,12 @@
 	width:7px;
 	height:4px;
 }
-
-.ug-strip-panel .ug-strip-arrow-up.ug-skin-alexis .ug-strip-arrow-tip{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/arrows_strip_up.png?raw=true');
-}
-
-.ug-strip-panel .ug-strip-arrow-down.ug-skin-alexis .ug-strip-arrow-tip{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/arrows_strip_down.png?raw=true');	
-}
-
+.ug-strip-panel .ug-strip-arrow-up.ug-skin-alexis,
+.ug-strip-panel .ug-strip-arrow-down.ug-skin-alexis{ height:25px; width:50px; }
+.ug-strip-panel .ug-strip-arrow-up.ug-skin-alexis .ug-strip-arrow-tip{ /*background-image:url('arrows_strip_up.png');*/ }
+.ug-strip-panel .ug-strip-arrow-down.ug-skin-alexis .ug-strip-arrow-tip{ /*background-image:url('arrows_strip_down.png');*/ }
 .ug-strip-panel .ug-strip-arrow-up.ug-skin-alexis.ug-button-hover .ug-strip-arrow-tip,
-.ug-strip-panel .ug-strip-arrow-down.ug-skin-alexis.ug-button-hover .ug-strip-arrow-tip{
-	background-position:-7px 0px;
-}
+.ug-strip-panel .ug-strip-arrow-down.ug-skin-alexis.ug-button-hover .ug-strip-arrow-tip{ background-position:-7px 0px; }
 
 .ug-strip-panel .ug-strip-arrow.ug-skin-alexis.ug-button-disabled .ug-strip-arrow-tip{
 	background-position:0px 0px;
@@ -225,72 +228,43 @@
 }
 
 
-/* --- left and right handle --- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(left and right handle)--- */
 .ug-gallery-wrapper .ug-handle-tip-left.ug-skin-alexis,
 .ug-gallery-wrapper .ug-handle-tip-right.ug-skin-alexis{
 	width:37px;
 	height:40px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/grid_handle_right.png?raw=true');
+	/*background-image:url('grid_handle_right.png');*/
 	background-repeat:no-repeat;
 	background-position:0px 0px;
 }
-
-.ug-gallery-wrapper .ug-handle-tip-right.ug-skin-alexis{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/grid_handle_left.png?raw=true');
-	background-position:0px 0px;
-}
-
+.ug-gallery-wrapper .ug-handle-tip-right.ug-skin-alexis{ /*background-image:url('grid_handle_left.png');*/ background-position:0px 0px; }
+.ug-gallery-wrapper .ug-handle-tip-left.ug-skin-alexis.ug-button-closed{ /*background-image:url('grid_handle_left.png');*/ background-position:0px 0px; }
+.ug-gallery-wrapper .ug-handle-tip-right.ug-skin-alexis.ug-button-closed{ /*background-image:url('grid_handle_right.png');*/ background-position:0px 0px; }
+.ug-gallery-wrapper .ug-handle-tip-left.ug-skin-alexis.ug-button-closed.ug-button-hover{ background-position:0px 0px; }
+.ug-gallery-wrapper .ug-handle-tip-right.ug-skin-alexis.ug-button-closed.ug-button-hover{ background-position:0px 0px; }
 .ug-gallery-wrapper .ug-handle-tip-left.ug-button-hover.ug-skin-alexis,
-.ug-gallery-wrapper .ug-handle-tip-right.ug-button-hover.ug-skin-alexis{
-	background-position:0px 0px;	
-}
-
-.ug-gallery-wrapper .ug-handle-tip-left.ug-skin-alexis.ug-button-closed{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/grid_handle_left.png?raw=true');
-	background-position:0px 0px;
-}
-
-.ug-gallery-wrapper .ug-handle-tip-right.ug-skin-alexis.ug-button-closed{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/grid_handle_right.png?raw=true');
-	background-position:0px 0px;
-}
-
-.ug-gallery-wrapper .ug-handle-tip-left.ug-skin-alexis.ug-button-closed.ug-button-hover{
-	background-position:0px 0px;
-	
-}
-
-.ug-gallery-wrapper .ug-handle-tip-right.ug-skin-alexis.ug-button-closed.ug-button-hover{
-	background-position:0px 0px;
-}
+.ug-gallery-wrapper .ug-handle-tip-right.ug-button-hover.ug-skin-alexis{ background-position:0px 0px; }
 
 
-/* --- top and bottom handle --- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(top and bottom handle)--- */
 .ug-gallery-wrapper .ug-handle-tip-top.ug-skin-alexis,
 .ug-gallery-wrapper .ug-handle-tip-bottom.ug-skin-alexis{	
 	width:36px;
 	height:19px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/grid_handle_up.png?raw=true');
+	/*background-image:url('grid_handle_up.png');*/
 	background-repeat:no-repeat;
 	background-position:-36px 0px;
 }
-
-.ug-gallery-wrapper .ug-handle-tip-bottom.ug-skin-alexis{
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/grid_handle_bottom.png?raw=true');
-	background-position:-36px 0px;
-}
-
+.ug-gallery-wrapper .ug-handle-tip-bottom.ug-skin-alexis{ /*background-image:url('grid_handle_bottom.png');*/ background-position:-36px 0px; }
 .ug-gallery-wrapper .ug-handle-tip-top.ug-skin-alexis.ug-button-hover,
-.ug-gallery-wrapper .ug-handle-tip-bottom.ug-skin-alexis.ug-button-hover{
-	background-position:0px 0px;	
-}
-
+.ug-gallery-wrapper .ug-handle-tip-bottom.ug-skin-alexis.ug-button-hover{ background-position:0px 0px; }
 .ug-gallery-wrapper .ug-handle-tip-top.ug-skin-alexis.ug-button-closed,
-.ug-gallery-wrapper .ug-handle-tip-bottom.ug-skin-alexis.ug-button-closed{
-	background-position:-108px 0px;
-}
-
+.ug-gallery-wrapper .ug-handle-tip-bottom.ug-skin-alexis.ug-button-closed{ background-position:-108px 0px; }
 .ug-gallery-wrapper .ug-handle-tip-top.ug-skin-alexis.ug-button-closed.ug-button-hover,
-.ug-gallery-wrapper .ug-handle-tip-bottom.ug-skin-alexis.ug-button-closed.ug-button-hover{
-	background-position:-72px 0px;
-}
+.ug-gallery-wrapper .ug-handle-tip-bottom.ug-skin-alexis.ug-button-closed.ug-button-hover{ background-position:-72px 0px; }
