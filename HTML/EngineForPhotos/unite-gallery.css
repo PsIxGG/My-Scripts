@@ -717,9 +717,9 @@ img.ug-sepia-effect{
     background-position: 0px 0px;	
 }
 .ug-zoompanel.ug-skin-default .ug-zoompanel-plus{ margin-top:0px; }
-.ug-zoompanel.ug-skin-default .ug-zoompanel-plus{ background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/icon_zoom_plus.png?raw=true'); }
-.ug-zoompanel.ug-skin-default .ug-zoompanel-minus{ background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/icon_zoom_minus.png?raw=true'); }
-.ug-zoompanel.ug-skin-default .ug-zoompanel-return{ background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/icon_zoom_back.png?raw=true'); }
+.ug-zoompanel.ug-skin-default .ug-zoompanel-plus{ /*background-image:url('icon_zoom_plus.png');*/ }
+.ug-zoompanel.ug-skin-default .ug-zoompanel-minus{ /*background-image:url('icon_zoom_minus.png');*/ }
+.ug-zoompanel.ug-skin-default .ug-zoompanel-return{ /*background-image:url('icon_zoom_back.png');*/ }
 .ug-zoompanel.ug-skin-default .ug-zoompanel-button.ug-button-hover{ background-position: 0px -23px; }
 .ug-zoompanel.ug-skin-default .ug-zoompanel-button-disabled,
 .ug-zoompanel.ug-skin-default .ug-zoompanel-button.ug-button-hover.ug-zoompanel-button-disabled{ background-position: 0px -46px; cursor:default; }
@@ -731,7 +731,7 @@ img.ug-sepia-effect{
 	width:30px;
 	height:15px;
 	background-position:0px 0px;	
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/arrow_grid_down.png?raw=true');
+	/*background-image:url('arrow_grid_down.png');*/
 }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-down.ug-skin-default.ug-button-hover{ background-position:0px -15px; }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-down.ug-skin-default.ug-button-hover.ug-button-disabled,
@@ -743,7 +743,7 @@ img.ug-sepia-effect{
 	width:30px;
 	height:15px;
 	background-position:0px 0px;	
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/arrow_grid_up.png?raw=true');
+	background-image:url('arrow_grid_up.png');
 }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-up.ug-skin-default.ug-button-hover{ background-position:0px -15px; }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-up.ug-skin-default.ug-button-hover.ug-button-disabled,
@@ -755,7 +755,7 @@ img.ug-sepia-effect{
 	width:40px;
 	height:40px;
 	background-position:0px -40px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/grid_arrow_left.png?raw=true');
+	/*background-image:url('grid_arrow_left.png');*/
 }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-left.ug-skin-default.ug-button-hover{ background-position:0px -0px; }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-left.ug-skin-default.ug-button-hover.ug-button-disabled,
@@ -767,7 +767,7 @@ img.ug-sepia-effect{
 	width:40px;
 	height:40px;
 	background-position:0px -40px;	
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/grid_arrow_right.png?raw=true');
+	/*background-image:url('grid_arrow_right.png');*/
 }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-right.ug-skin-default.ug-button-hover{ background-position:0px -0px; }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-right.ug-skin-default.ug-button-hover.ug-button-disabled,
@@ -778,7 +778,7 @@ img.ug-sepia-effect{
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-left-hortype.ug-skin-default{
 	width:15px;
 	height:30px;
-	/* background-image:url('slider_arrow_left.png'); */
+	/*background-image:url('slider_arrow_left.png');*/
 	background-position:0px 0px;
 }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-left-hortype.ug-skin-default.ug-button-hover{ background-position:0px -30px; }
@@ -786,11 +786,11 @@ img.ug-sepia-effect{
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-left-hortype.ug-skin-default.ug-button-disabled{ background-position:0px -60px; }
 
 
-/*--- right arrow - horizontal panel type ---*/
+/* ---(right arrow - horizontal panel type)--- */
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-right-hortype.ug-skin-default{
 	width:15px;
 	height:30px;
-	/* background-image:url('slider_arrow_right.png'); */
+	/*background-image:url('slider_arrow_right.png');*/
 	background-position:0px 0px;
 }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-right-hortype.ug-skin-default.ug-button-hover{ background-position:0px -30px; }
@@ -809,8 +809,8 @@ img.ug-sepia-effect{
 	width:4px;
 	height:7px;
 }
-.ug-strip-panel .ug-strip-arrow-left.ug-skin-default .ug-strip-arrow-tip{ background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/arrows_strip_left.png?raw=true'); }
-.ug-strip-panel .ug-strip-arrow-right.ug-skin-default .ug-strip-arrow-tip{ background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/arrows_strip_right.png?raw=true'); }
+.ug-strip-panel .ug-strip-arrow-left.ug-skin-default .ug-strip-arrow-tip{ /*background-image:url('arrows_strip_left.png');*/ }
+.ug-strip-panel .ug-strip-arrow-right.ug-skin-default .ug-strip-arrow-tip{ /*background-image:url('arrows_strip_right.png');*/ }
 .ug-strip-panel .ug-strip-arrow-left.ug-skin-default.ug-button-hover .ug-strip-arrow-tip,
 .ug-strip-panel .ug-strip-arrow-right.ug-skin-default.ug-button-hover .ug-strip-arrow-tip{ background-position:0px -7px; }
 
@@ -825,8 +825,8 @@ img.ug-sepia-effect{
 	width:7px;
 	height:4px;
 }
-.ug-strip-panel .ug-strip-arrow-up.ug-skin-default .ug-strip-arrow-tip{ background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/arrows_strip_up.png?raw=true'); }
-.ug-strip-panel .ug-strip-arrow-down.ug-skin-default .ug-strip-arrow-tip{ background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/arrows_strip_down.png?raw=true'); }
+.ug-strip-panel .ug-strip-arrow-up.ug-skin-default .ug-strip-arrow-tip{ /*background-image:url('arrows_strip_up.png');*/ }
+.ug-strip-panel .ug-strip-arrow-down.ug-skin-default .ug-strip-arrow-tip{ /*background-image:url('arrows_strip_down.png');*/ }
 .ug-strip-panel .ug-strip-arrow-up.ug-skin-default.ug-button-hover .ug-strip-arrow-tip,
 .ug-strip-panel .ug-strip-arrow-down.ug-skin-default.ug-button-hover .ug-strip-arrow-tip{ background-position:-7px 0px; }
 .ug-strip-panel .ug-strip-arrow.ug-skin-default.ug-button-disabled .ug-strip-arrow-tip{
@@ -855,12 +855,12 @@ img.ug-sepia-effect{
 .ug-gallery-wrapper .ug-handle-tip-right.ug-skin-default.ug-button-closed.ug-button-hover{ background-position:0px -72px; }
 
 
-/* top and bottom handle */
+/* ---(top and bottom handle)--- */
 .ug-gallery-wrapper .ug-handle-tip-top.ug-skin-default,
 .ug-gallery-wrapper .ug-handle-tip-bottom.ug-skin-default{	
 	width:36px;
 	height:22px;
-	background-image:url('https://github.com/PsIxGG/My-Scripts/blob/main/HTML/EngineForPhotos/Img/grid_handle_black_top.png?raw=true');
+	/*background-image:url('grid_handle_black_top.png');*/
 	background-repeat:no-repeat;
 	background-position:-36px 0px;
 }
