@@ -8,19 +8,20 @@
 *     ‾‾‾‾‾‾
 **/
 
- 
+
 
 .ug-gallery-wrapper .ug-theme-panel{
 	position:absolute;
 	xbackground-color:red;
 	z-index:11;		
 }
+.ug-theme-panel .ug-strip-panel{ z-index:6; }
 
-.ug-theme-panel .ug-strip-panel{
-	z-index:6;
-}
 
-/* --- fullscreen button -- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(fullscreen button)--- */
 .ug-theme-default .ug-default-button-fullscreen{
 	position:absolute;
 	/* background-image:url('button_fullscreen.png'); */
@@ -30,21 +31,15 @@
 	background-position:0px 0px;
 	z-index:3;
 }
-
-.ug-theme-default .ug-default-button-fullscreen.ug-button-hover{
-	background-position:0px -50px;	
-}
-
-.ug-theme-default .ug-default-button-fullscreen.ug-fullscreenmode{
-	background-position:0px -100px;
-}
-
-.ug-theme-default .ug-default-button-fullscreen.ug-fullscreenmode.ug-button-hover{
-	background-position:0px -150px;
-}
+.ug-theme-default .ug-default-button-fullscreen.ug-button-hover{ background-position:0px -50px; }
+.ug-theme-default .ug-default-button-fullscreen.ug-fullscreenmode{ background-position:0px -100px; }
+.ug-theme-default .ug-default-button-fullscreen.ug-fullscreenmode.ug-button-hover{ background-position:0px -150px; }
 
 
-/* --- fullscreen button single mode-- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(fullscreen button single mode)--- */
 .ug-theme-default .ug-default-button-fullscreen-single{
 	position:absolute;
 	/* background-image:url('button_fullscreen_single.png'); */
@@ -54,21 +49,15 @@
 	background-position:0px 0px;
 	z-index:3;
 }
-
-.ug-theme-default .ug-default-button-fullscreen-single.ug-button-hover{
-	background-position:0px -50px;	
-}
-
-.ug-theme-default .ug-default-button-fullscreen-single.ug-fullscreenmode{
-	background-position:0px -100px;
-}
-
-.ug-theme-default .ug-default-button-fullscreen-single.ug-fullscreenmode.ug-button-hover{
-	background-position:0px -150px;
-}
+.ug-theme-default .ug-default-button-fullscreen-single.ug-button-hover{ background-position:0px -50px; }
+.ug-theme-default .ug-default-button-fullscreen-single.ug-fullscreenmode{ background-position:0px -100px; }
+.ug-theme-default .ug-default-button-fullscreen-single.ug-fullscreenmode.ug-button-hover{ background-position:0px -150px; }
 
 
-/* --- play button -- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(play button)--- */
 .ug-theme-default .ug-default-button-play{
 	position:absolute;
 	/* background-image:url('button_playpause.png'); */
@@ -78,20 +67,15 @@
 	background-position:0px 0px;
 	z-index:4;
 }
+.ug-theme-default .ug-default-button-play.ug-button-hover{ background-position:0px -50px;	 }
+.ug-theme-default .ug-default-button-play.ug-stop-mode{ background-position:0px -100px; }
+.ug-theme-default .ug-default-button-play.ug-stop-mode.ug-button-hover{ background-position:0px -150px; }
 
-.ug-theme-default .ug-default-button-play.ug-button-hover{
-	background-position:0px -50px;	
-}
 
-.ug-theme-default .ug-default-button-play.ug-stop-mode{
-	background-position:0px -100px;
-}
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
 
-.ug-theme-default .ug-default-button-play.ug-stop-mode.ug-button-hover{
-	background-position:0px -150px;
-}
 
-/* --- play button single mode-- */
+/* ---(play button single mode)--- */
 .ug-theme-default .ug-default-button-play-single{
 	position:absolute;
 	/* background-image:url('button_playpause_single.png'); */
@@ -101,21 +85,15 @@
 	background-position:0px 0px;
 	z-index:4;
 }
-
-.ug-theme-default .ug-default-button-play-single.ug-button-hover{
-	background-position:0px -50px;	
-}
-
-.ug-theme-default .ug-default-button-play-single.ug-stop-mode{
-	background-position:0px -100px;
-}
-
-.ug-theme-default .ug-default-button-play-single.ug-stop-mode.ug-button-hover{
-	background-position:0px -150px;
-}
+.ug-theme-default .ug-default-button-play-single.ug-button-hover{ background-position:0px -50px; }
+.ug-theme-default .ug-default-button-play-single.ug-stop-mode{ background-position:0px -100px; }
+.ug-theme-default .ug-default-button-play-single.ug-stop-mode.ug-button-hover{ background-position:0px -150px; }
 
 
-/* --- hide panel button -- */
+/* ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
+/* ---(hide panel button)--- */
 .ug-default-button-hidepanel{
 	position:absolute;
 	width:23px;
@@ -123,7 +101,6 @@
 	z-index:5;
 	cursor:pointer;	
 }
-
 .ug-default-button-hidepanel .ug-default-button-hidepanel-bg{
 	background-color:#000000;
 	width:23px;
@@ -135,7 +112,6 @@
 	filter: alpha(opacity = 40);
 	z-index:1;
 }
-
 .ug-default-button-hidepanel .ug-default-button-hidepanel-tip{
 	position:absolute;
 	width:7px;
@@ -145,15 +121,6 @@
 	background-position: 0px 0px;
 	z-index:2;
 }
-
-.ug-default-button-hidepanel.ug-button-hover .ug-default-button-hidepanel-tip{
-	background-position: 0px -7px;
-}
-
-.ug-default-button-hidepanel.ug-button-hidden-mode .ug-default-button-hidepanel-tip{
-	background-position: 0px -14px;
-}
-
-.ug-default-button-hidepanel.ug-button-hidden-mode.ug-button-hover .ug-default-button-hidepanel-tip{
-	background-position: 0px -21px;
-}
+.ug-default-button-hidepanel.ug-button-hover .ug-default-button-hidepanel-tip{ background-position: 0px -7px; }
+.ug-default-button-hidepanel.ug-button-hidden-mode .ug-default-button-hidepanel-tip{ background-position: 0px -14px; }
+.ug-default-button-hidepanel.ug-button-hidden-mode.ug-button-hover .ug-default-button-hidepanel-tip{ background-position: 0px -21px; }
