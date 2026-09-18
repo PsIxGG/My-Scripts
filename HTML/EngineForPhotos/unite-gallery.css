@@ -315,7 +315,7 @@ img.ug-sepia-effect{
 }
 
 
-/* ---(Text panel above the photo (I hope :))--- */
+/* ---(Text panel above the photo "I hope :)")--- */
 .ug-gallery-wrapper .ug-bullets{
 	position: absolute;
 	top:0px;
@@ -363,7 +363,7 @@ img.ug-sepia-effect{
 }
 
 
-/*  ---(Photo zoom panel)--- */
+/*  ---(Photo zoom panel "I hope :)")--- */
 .ug-slider-wrapper .ug-zoompanel{
 	position:absolute;
 	top:200px;
@@ -397,7 +397,7 @@ img.ug-sepia-effect{
 	cursor:pointer;
 	z-index:11;
 }
-.ug-gallery-wrapper .ug-grid-panel .grid-arrow.ug-button-disabled{ cursor:default;	 }
+.ug-gallery-wrapper .ug-grid-panel .grid-arrow.ug-button-disabled{ cursor:default; }
 
 
 /* ---(handle tip)--- */
