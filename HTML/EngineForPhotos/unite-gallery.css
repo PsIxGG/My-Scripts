@@ -962,7 +962,7 @@ img.ug-sepia-effect{
 	background-repeat:no-repeat;
 	background-position:-36px 0px;
 }
-.ug-gallery-wrapper .ug-handle-tip-bottom.ug-skin-default{ /*background-image:url('grid_handle_black_bottom.png');*/ background-position:-36px 0px;}
+.ug-gallery-wrapper .ug-handle-tip-bottom.ug-skin-default{ /*background-image:url('grid_handle_black_bottom.png');*/ background-position:-36px 0px; }
 .ug-gallery-wrapper .ug-handle-tip-top.ug-skin-default.ug-button-hover,
 .ug-gallery-wrapper .ug-handle-tip-bottom.ug-skin-default.ug-button-hover{ background-position:0px 0px; }
 .ug-gallery-wrapper .ug-handle-tip-top.ug-skin-default.ug-button-closed,
