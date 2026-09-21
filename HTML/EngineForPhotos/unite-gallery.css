@@ -136,7 +136,7 @@
 .ug-slider-preloader.ug-loader1{
 	width:30px;
 	height:30px;
-	background-image:url('oader-white1.gif');
+	/*background-image:url('oader-white1.gif');*/
 }
 .ug-slider-preloader.ug-loader1.ug-loader-black{ /*background-image:url('loader-black1.gif');*/ }
 .ug-slider-preloader.ug-loader2{
