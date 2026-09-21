@@ -817,7 +817,7 @@ img.ug-sepia-effect{
 	width:30px;
 	height:15px;
 	background-position:0px 0px;	
-	background-image:url('arrow_grid_up.png');
+	/*background-image:url('arrow_grid_up.png');*/
 }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-up.ug-skin-default.ug-button-hover{ background-position:0px -15px; }
 .ug-gallery-wrapper .ug-grid-panel .grid-arrow-up.ug-skin-default.ug-button-hover.ug-button-disabled,
