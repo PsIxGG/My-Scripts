@@ -196,7 +196,7 @@
 	height:7px;
 }
 .ug-strip-panel .ug-strip-arrow-left.ug-skin-alexis .ug-strip-arrow-tip{ /*background-image:url('arrows_strip_left.png');*/ }
-.ug-strip-panel .ug-strip-arrow-right.ug-skin-alexis .ug-strip-arrow-tip{ /*background-image:url('arrows_strip_right.png');*/	}
+.ug-strip-panel .ug-strip-arrow-right.ug-skin-alexis .ug-strip-arrow-tip{ /*background-image:url('arrows_strip_right.png');*/ }
 .ug-strip-panel .ug-strip-arrow-left.ug-skin-alexis,
 .ug-strip-panel .ug-strip-arrow-right.ug-skin-alexis{ width:25px; height:50px; }
 .ug-strip-panel .ug-strip-arrow-left.ug-skin-alexis.ug-button-hover .ug-strip-arrow-tip,
